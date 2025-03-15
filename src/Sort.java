@@ -1,5 +1,5 @@
 import java.util.Arrays;
-
+//TODO: Реализация сортировки методом пузырька
 public class Sort {
     public static void bubbleSort(int[] ArrayName) {
         int temp = 0;
@@ -22,6 +22,7 @@ public class Sort {
                 (double)sumTime / 1_000_000 + " милисекунд.");
     }
 
+    //TODO: Реализация сортировки методом быстрой сортировки
     public static void quickSort(int[] ArrayName) {
         if (ArrayName.length <= 1) {
             return;
